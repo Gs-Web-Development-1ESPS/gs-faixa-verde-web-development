@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e211f;
+    color: #e8eae4;
+    font-family: 'Atkinson Hyperlegible', 'Segoe UI', sans-serif;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo__icone {
+    width: 32px;
+    height: 32px;
+}
+
+.logo__nome {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.campo {
+    margin-bottom: 16px;
+}
+
+.campo__rotulo {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.campo__entrada {
+    width: 360px;
+    height: 48px;
+    padding: 0 16px;
+    background-color: #1e211f;
+    color: #e8eae4;
+    border: 2px solid #6b6e6c;
+    border-radius: 8px;
+    font-family: 'Atkinson Hyperlegible', 'Segoe UI', sans-serif;
+    font-size: 16px;
+}
+
+.botao-principal {
+    width: 360px;
+    height: 52px;
+    background-color: #7ecb8b;
+    color: #101410;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Atkinson Hyperlegible', 'Segoe UI', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.botao-principal:hover {
+    background-color: #9bdba6;
+}
+
+.botao-contorno {
+    padding: 10px 16px;
+    color: #e8eae4;
+    border: 2px solid #6b6e6c;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.botao-contorno:hover {
+    border-color: #7ecb8b;
+}
+
+.container-login {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login__conteudo {
+    width: 400px;
+}
+
+.container-login__titulo {
+    margin-top: 32px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.container-login__subtitulo {
+    margin-top: 4px;
+    margin-bottom: 32px;
+    color: #9a9d98;
+}
+
+.container-login .campo__entrada,
+.container-login .botao-principal {
+    width: 400px;
+}
+
+.container-login__rodape {
+    margin-top: 24px;
+    color: #9a9d98;
+    font-size: 15px;
+}
+
+.container-login__rodape a {
+    color: #7ecb8b;
+    font-weight: 700;
+    text-decoration: none;
+}
