@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600;700&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Faixa Verde | Percursos</title>
+</head>
+<body>
+    <header class="container-cabecalho">
+        <div class="container-cabecalho__conteudo">
+            <div class="logo">
+                <img class="logo__icone" src="./src/img/logo.png" alt="Logo Faixa Verde">
+                <span class="logo__nome">Faixa Verde</span>
+            </div>
+            <nav class="container-cabecalho__menu">
+                <a class="container-cabecalho__link container-cabecalho__link--ativo" href="./percursos.html">Percursos</a>
+                <a class="container-cabecalho__link" href="./cupons.html">Cupons</a>
+            </nav>
+            <div class="container-cabecalho__usuario">
+                <span class="container-cabecalho__pontos" id="pontos-topo">640 pts</span>
+                <a class="botao-contorno" href="./index.html">Sair</a>
+            </div>
+        </div>
+    </header>
+    <main class="container-pagina">
+        <h1 class="container-pagina__titulo">Meus percursos</h1>
+        <p class="container-pagina__subtitulo">Cada percurso sem carro vira pontos para trocar por cupons.</p>
+        <div class="container-percursos">
+            <section class="container-percursos__esquerda">
+                <h2 class="container-pagina__secao">Últimos percursos</h2>
+                <ul class="container-percursos__lista" id="lista-percursos">
+                    <li class="container-percursos__cartao">
+                        <div class="container-percursos__topo">
+                            <span class="container-percursos__etiqueta">A pé</span>
+                            <span class="container-percursos__dia">Sáb 08/11</span>
+                        </div>
+                        <h3 class="container-percursos__nome">Casa → Feira da Vila Mariana</h3>
+                        <p class="container-percursos__detalhe">1,7 km · em vez de carro próprio</p>
+                        <p class="container-percursos__pontos">
+                            <span class="container-percursos__pontos-numero">+26</span>
+                            <span class="container-percursos__pontos-texto"> pontos</span>
+                        </p>
+                    </li>
+                    <li class="container-percursos__cartao">
+                        <div class="container-percursos__topo">
+                            <span class="container-percursos__etiqueta">Metrô</span>
+                            <span class="container-percursos__dia">Sex 07/11</span>
+                        </div>
+                        <h3 class="container-percursos__nome">Masp → Casa</h3>
+                        <p class="container-percursos__detalhe">5,2 km · em vez de aplicativo</p>
+                        <p class="container-percursos__pontos">
+                            <span class="container-percursos__pontos-numero">+47</span>
+                            <span class="container-percursos__pontos-texto"> pontos</span>
+                        </p>
+                    </li>
+                    <li class="container-percursos__cartao">
+                        <div class="container-percursos__topo">
+                            <span class="container-percursos__etiqueta">Bike</span>
+                            <span class="container-percursos__dia">Ter 04/11</span>
+                        </div>
+                        <h3 class="container-percursos__nome">Paulista → Consolação</h3>
+                        <p class="container-percursos__detalhe">2,4 km · em vez de aplicativo</p>
+                        <p class="container-percursos__pontos">
+                            <span class="container-percursos__pontos-numero">+29</span>
+                            <span class="container-percursos__pontos-texto"> pontos</span>
+                        </p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
