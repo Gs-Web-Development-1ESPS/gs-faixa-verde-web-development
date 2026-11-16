@@ -211,6 +211,59 @@ ul {
     font-weight: 700;
 }
 
+.container-slideshow {
+    width: 1040px;
+    margin: 24px 0 32px 0;
+    background-color: #272a28;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.container-slideshow__imagem {
+    display: block;
+    width: 1040px;
+    height: 360px;
+    object-fit: cover;
+}
+
+.container-slideshow__controles {
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-slideshow__legenda {
+    text-align: center;
+}
+
+.container-slideshow__titulo {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.container-slideshow__texto {
+    margin-top: 2px;
+    color: #9a9d98;
+    font-size: 14px;
+}
+
+.container-slideshow__botao {
+    padding: 10px 16px;
+    background-color: #1e211f;
+    color: #e8eae4;
+    border: 2px solid #6b6e6c;
+    border-radius: 8px;
+    font-family: 'Atkinson Hyperlegible', 'Segoe UI', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container-slideshow__botao:hover {
+    border-color: #7ecb8b;
+}
+
 .container-percursos {
     display: flex;
     align-items: flex-start;
@@ -457,4 +510,115 @@ ul {
 
 .container-tabela__linha--titulo .container-tabela__pontos {
     color: #9a9d98;
+}
+
+.container-cupons__topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.container-cupons__saldo {
+    text-align: right;
+}
+
+.container-cupons__saldo-numero {
+    color: #c9e86f;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.container-cupons__saldo-texto {
+    color: #9a9d98;
+    font-size: 14px;
+}
+
+.container-cupons__mensagem {
+    margin-top: 24px;
+    padding: 14px 16px;
+    background-color: #233628;
+    border-radius: 8px;
+    font-weight: 700;
+    display: none;
+}
+
+.container-cupons__lista {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.container-cupons__cartao {
+    width: 248px;
+    padding: 20px;
+    background-color: #272a28;
+    border-radius: 12px;
+}
+
+.container-cupons__loja {
+    color: #9a9d98;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.container-cupons__nome {
+    min-height: 48px;
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container-cupons__custo {
+    margin-bottom: 24px;
+    color: #c9e86f;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+}
+
+.container-cupons__botao {
+    width: 208px;
+    height: 44px;
+    background-color: #7ecb8b;
+    color: #101410;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Atkinson Hyperlegible', 'Segoe UI', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container-cupons__botao:hover {
+    background-color: #9bdba6;
+}
+
+.container-cupons__secao {
+    margin-top: 40px;
+}
+
+.container-cupons__resgatado {
+    padding: 16px 0;
+    border-bottom: 1px solid #343835;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-cupons__resgatado-nome {
+    font-weight: 700;
+}
+
+.container-cupons__resgatado-loja {
+    color: #9a9d98;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.container-cupons__codigo {
+    color: #c9e86f;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 24px;
 }

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600;700&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Faixa Verde | Cupons</title>
+</head>
+<body>
+    <header class="container-cabecalho">
+        <div class="container-cabecalho__conteudo">
+            <div class="logo">
+                <img class="logo__icone" src="./src/img/logo.png" alt="Logo Faixa Verde">
+                <span class="logo__nome">Faixa Verde</span>
+            </div>
+            <nav class="container-cabecalho__menu">
+                <a class="container-cabecalho__link" href="./percursos.html">Percursos</a>
+                <a class="container-cabecalho__link container-cabecalho__link--ativo" href="./cupons.html">Cupons</a>
+            </nav>
+            <div class="container-cabecalho__usuario">
+                <span class="container-cabecalho__pontos" id="pontos-topo">640 pts</span>
+                <a class="botao-contorno" href="./index.html">Sair</a>
+            </div>
+        </div>
+    </header>
+    <main class="container-pagina">
+        <div class="container-cupons__topo">
+            <div>
+                <h1 class="container-pagina__titulo">Trocar por cupons</h1>
+                <p class="container-pagina__subtitulo">Use seus pontos no comércio parceiro do bairro.</p>
+            </div>
+            <div class="container-cupons__saldo">
+                <p class="container-cupons__saldo-numero" id="pontos-disponiveis">640</p>
+                <p class="container-cupons__saldo-texto">pontos disponíveis</p>
+            </div>
+        </div>
+        <p class="container-cupons__mensagem" id="mensagem-cupom"></p>
+        <ul class="container-cupons__lista">
+            <li class="container-cupons__cartao">
+                <p class="container-cupons__loja">Café do Trianon</p>
+                <h3 class="container-cupons__nome">Um café coado grátis</h3>
+                <p class="container-cupons__custo">150 pts</p>
+                <button class="container-cupons__botao" id="botao-cupom-1">Trocar</button>
+            </li>
+            <li class="container-cupons__cartao">
+                <p class="container-cupons__loja">Padaria Bela Vista</p>
+                <h3 class="container-cupons__nome">10% no café da manhã</h3>
+                <p class="container-cupons__custo">300 pts</p>
+                <button class="container-cupons__botao" id="botao-cupom-2">Trocar</button>
+            </li>
+            <li class="container-cupons__cartao">
+                <p class="container-cupons__loja">Mercado Verde</p>
+                <h3 class="container-cupons__nome">5% de desconto nas compras</h3>
+                <p class="container-cupons__custo">400 pts</p>
+                <button class="container-cupons__botao" id="botao-cupom-3">Trocar</button>
+            </li>
+            <li class="container-cupons__cartao">
+                <p class="container-cupons__loja">Livraria da Esquina</p>
+                <h3 class="container-cupons__nome">R$ 15 de desconto</h3>
+                <p class="container-cupons__custo">500 pts</p>
+                <button class="container-cupons__botao" id="botao-cupom-4">Trocar</button>
+            </li>
+            <li class="container-cupons__cartao">
+                <p class="container-cupons__loja">Pedal Paulista Bikes</p>
+                <h3 class="container-cupons__nome">Revisão de freios grátis</h3>
+                <p class="container-cupons__custo">600 pts</p>
+                <button class="container-cupons__botao" id="botao-cupom-5">Trocar</button>
+            </li>
+            <li class="container-cupons__cartao">
+                <p class="container-cupons__loja">Recarga de transporte</p>
+                <h3 class="container-cupons__nome">R$ 10 de crédito</h3>
+                <p class="container-cupons__custo">800 pts</p>
+                <button class="container-cupons__botao" id="botao-cupom-6">Trocar</button>
+            </li>
+        </ul>
+        <h2 class="container-pagina__secao container-cupons__secao">Meus cupons</h2>
+        <div id="lista-resgatados"></div>
+    </main>
+</body>
+</html>
