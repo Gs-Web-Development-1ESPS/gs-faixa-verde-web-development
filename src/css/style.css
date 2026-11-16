@@ -379,3 +379,82 @@ ul {
 .container-formulario__foto-arquivo {
     display: none;
 }
+
+.container-tabela {
+    padding: 24px;
+    background-color: #272a28;
+    border-radius: 16px;
+}
+
+.container-tabela__titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container-tabela__subtitulo {
+    margin: 4px 0 16px 0;
+    color: #9a9d98;
+    font-size: 14px;
+}
+
+.container-tabela__linha {
+    padding: 12px 0;
+    border-top: 1px solid #343835;
+    display: flex;
+    align-items: center;
+}
+
+.container-tabela__linha--titulo {
+    padding: 0 0 8px 0;
+    border-top: none;
+    color: #9a9d98;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.container-tabela__nome {
+    width: 200px;
+}
+
+.container-tabela__bolinha {
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.container-tabela__bolinha--lima {
+    background-color: #c9e86f;
+}
+
+.container-tabela__bolinha--verde {
+    background-color: #7ecb8b;
+}
+
+.container-tabela__bolinha--azul {
+    background-color: #7fb4d6;
+}
+
+.container-tabela__bolinha--laranja {
+    background-color: #f0a050;
+}
+
+.container-tabela__pontos {
+    width: 90px;
+    color: #c9e86f;
+    font-family: 'JetBrains Mono', monospace;
+    text-align: right;
+}
+
+.container-tabela__total {
+    width: 70px;
+    color: #9a9d98;
+    font-family: 'JetBrains Mono', monospace;
+    text-align: right;
+}
+
+.container-tabela__linha--titulo .container-tabela__pontos {
+    color: #9a9d98;
+}
