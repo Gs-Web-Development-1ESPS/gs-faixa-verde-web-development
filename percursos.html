@@ -71,6 +71,68 @@
                     </li>
                 </ul>
             </section>
+            <aside class="container-percursos__direita">
+                <form class="container-formulario" id="formulario-percurso">
+                    <h2 class="container-formulario__titulo">Cadastrar percurso</h2>
+                    <div class="campo">
+                        <label class="campo__rotulo" for="campo-modo">Como você foi?</label>
+                        <select class="campo__entrada" id="campo-modo">
+                            <option>A pé</option>
+                            <option selected>Bike</option>
+                            <option>Ônibus elétrico</option>
+                            <option>Metrô</option>
+                            <option>Ônibus a combustão</option>
+                        </select>
+                    </div>
+                    <div class="campo">
+                        <p class="campo__rotulo">Como você faria esse percurso normalmente?</p>
+                        <div class="opcoes">
+                            <label class="opcao">
+                                <input class="opcao__entrada" id="radio-carro" type="radio" name="normalmente">
+                                <span class="opcao__caixa">Carro próprio</span>
+                            </label>
+                            <label class="opcao">
+                                <input class="opcao__entrada" id="radio-aplicativo" type="radio" name="normalmente" checked>
+                                <span class="opcao__caixa">Aplicativo</span>
+                            </label>
+                            <label class="opcao">
+                                <input class="opcao__entrada" id="radio-outros" type="radio" name="normalmente">
+                                <span class="opcao__caixa">Outros</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <label class="campo__rotulo" for="campo-origem">Saí de</label>
+                        <input class="campo__entrada" id="campo-origem" type="text" placeholder="Ex.: Estação Paulista">
+                    </div>
+                    <div class="campo">
+                        <label class="campo__rotulo" for="campo-destino">Cheguei em</label>
+                        <input class="campo__entrada" id="campo-destino" type="text" placeholder="Ex.: Masp">
+                    </div>
+                    <div class="campo-duplo">
+                        <div class="campo">
+                            <label class="campo__rotulo" for="campo-distancia">Distância (km)</label>
+                            <input class="campo__entrada" id="campo-distancia" type="number" step="0.1" placeholder="Ex.: 2,4">
+                        </div>
+                        <div class="campo">
+                            <label class="campo__rotulo" for="campo-dia">Dia</label>
+                            <input class="campo__entrada" id="campo-dia" type="text" placeholder="Ex.: 11/11">
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <p class="campo__rotulo">Foto do percurso</p>
+                        <label class="container-formulario__foto" id="caixa-foto" for="campo-foto">
+                            <img class="container-formulario__foto-icone" src="./src/img/camera.png" alt="Câmera">
+                            <div class="container-formulario__foto-textos">
+                                <strong class="container-formulario__foto-titulo">Escolher foto</strong>
+                                <span class="container-formulario__foto-descricao" id="texto-foto">Do caminho, da bike estacionada ou do ponto. JPG ou PNG.</span>
+                            </div>
+                        </label>
+                        <input class="container-formulario__foto-arquivo" id="campo-foto" type="file" accept="image/png, image/jpeg">
+                    </div>
+                    <button class="botao-principal" id="botao-salvar" type="button">Salvar percurso</button>
+                </form>
+            </aside>
         </div>
     </main>
 </body>
