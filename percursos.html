@@ -29,6 +29,17 @@
     <main class="container-pagina">
         <h1 class="container-pagina__titulo">Meus percursos</h1>
         <p class="container-pagina__subtitulo">Cada percurso sem carro vira pontos para trocar por cupons.</p>
+        <section class="container-slideshow">
+            <img class="container-slideshow__imagem" id="slide-imagem" src="./src/img/slide-1.jpg" alt="Imagem do slideshow">
+            <div class="container-slideshow__controles">
+                <button class="container-slideshow__botao" id="botao-anterior">‹ Anterior</button>
+                <div class="container-slideshow__legenda">
+                    <h2 class="container-slideshow__titulo" id="slide-titulo">Avenida Paulista</h2>
+                    <p class="container-slideshow__texto" id="slide-texto">Vá a pé ou de bike pela Paulista e ganhe pontos.</p>
+                </div>
+                <button class="container-slideshow__botao" id="botao-proximo">Próximo ›</button>
+            </div>
+        </section>
         <div class="container-percursos">
             <section class="container-percursos__esquerda">
                 <h2 class="container-pagina__secao">Últimos percursos</h2>
@@ -184,6 +195,7 @@
             </aside>
         </div>
     </main>
+    <script src="./src/js/slide.js"></script>
     <script src="./src/js/percursos.js"></script>
 </body>
 </html>
