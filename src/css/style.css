@@ -133,3 +133,148 @@ ul {
     font-weight: 700;
     text-decoration: none;
 }
+
+.container-cabecalho {
+    border-bottom: 1px solid #323633;
+}
+
+.container-cabecalho__conteudo {
+    max-width: 1072px;
+    height: 66px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-cabecalho__menu {
+    display: flex;
+    gap: 24px;
+}
+
+.container-cabecalho__link {
+    padding: 22px 0 8px 0;
+    color: #e8eae4;
+    border-bottom: 3px solid #1e211f;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.container-cabecalho__link--ativo {
+    color: #7ecb8b;
+    border-bottom: 3px solid #7ecb8b;
+}
+
+.container-cabecalho__usuario {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.container-cabecalho__pontos {
+    color: #c9e86f;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+}
+
+.container-pagina {
+    max-width: 1072px;
+    margin: 0 auto;
+    padding: 32px 16px 64px 16px;
+}
+
+.container-pagina__titulo {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container-pagina__subtitulo {
+    margin-top: 4px;
+    color: #9a9d98;
+}
+
+.container-pagina__secao {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container-percursos {
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.container-percursos__esquerda {
+    width: 584px;
+}
+
+.container-percursos__direita {
+    width: 408px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.container-percursos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.container-percursos__cartao {
+    width: 184px;
+    padding: 16px;
+    background-color: #272a28;
+    border-radius: 12px;
+}
+
+.container-percursos__topo {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-percursos__etiqueta {
+    padding: 4px 8px;
+    background-color: #233628;
+    color: #7ecb8b;
+    border-radius: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container-percursos__dia {
+    color: #9a9d98;
+    font-size: 12px;
+}
+
+.container-percursos__nome {
+    min-height: 40px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.container-percursos__detalhe {
+    min-height: 40px;
+    color: #9a9d98;
+    font-size: 13px;
+}
+
+.container-percursos__pontos-numero {
+    color: #c9e86f;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container-percursos__pontos-texto {
+    color: #9a9d98;
+    font-size: 13px;
+}
