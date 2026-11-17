@@ -1,0 +1,11 @@
+GLOBAL SOLUTION 2026.2 - CITIZENTECH - Faixa Verde
+Web Development
+
+Integrantes:
+1. Fernando Crociatti de Toledo - RM: 574258
+2. Lucas Hideo Praieiro Hossaki Ferreira - RM: 575700
+3. Nicolas Hohl dos Santos - RM: 574770
+4. Rafael Ribeiro Fernandes - RM: 576478
+5. Thiago Freitas Vilariço - RM: 576212
+
+Link do repositório GitHub: https://github.com/Gs-Web-Development-1ESPS/gs-faixa-verde-web-development
